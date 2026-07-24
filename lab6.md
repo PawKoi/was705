@@ -1,5 +1,5 @@
 # Lab 6 – Task Division (Audiobookshelf, 4-Person Group)
-# Lab 6 - detailed ([_click me_](https://github.com/PawKoi/was705/blob/main/lab6-detailed.md))
+## Lab 6 - detailed ([_click me_](https://github.com/PawKoi/was705/blob/main/lab6-detailed.md))
 
 ## Section & Workload Assignments
 
