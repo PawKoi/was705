@@ -1,6 +1,6 @@
 # Lab 6 — Exact Execution Guide (Using Real Lab 1–3 Data)
 
-**Group 4:** Divyansh Ashishkumar Pandya (D), Harlin Kaur Taggar (H), Pawan Koirala (P), Sara Saleh (S)
+**Group 4:** Person 1, Person 2, Person 3, Person 4
 **Target:** Audiobookshelf v2.35.0 | Course: WAS705NBB
 
 > This document tells each person **exactly** what content to put on which slide, which command to run/show, which real finding from Labs 1–3 to cite, and what the interactive task + solution should say — word for word where possible. Copy-paste and adapt tone, don't reinvent.
@@ -11,16 +11,16 @@
 
 | Person | Sections | Source Lab(s) |
 |---|---|---|
-| **Divyansh (D)** | 1. Intro & Developer Roles, 3. Key Threat Events | Lab 1 (overview) + Lab 2 (STRIDE/PASTA) |
-| **Harlin (H)** | 2. Applicable Regulations, 5. Recommended Security Tools | Lab 2 (regulatory gaps) + Lab 1/3 (Syft/Grype, Burp, Nikto, sqlmap) |
-| **Pawan (P)** | 6. Secure Coding Guidelines, 8. Wrap-Up & Checklist | Lab 2 (mitigations table) + Lab 3 (test results) |
-| **Sara (S)** | 4. Testing Strategies, 7. Comparison with Alternatives | Lab 3 (test methodology) + Lab 1 (competitive landscape) |
+| **Person 1** | 1. Intro & Developer Roles, 3. Key Threat Events | Lab 1 (overview) + Lab 2 (STRIDE/PASTA) |
+| **Person 4** | 2. Applicable Regulations, 5. Recommended Security Tools | Lab 2 (regulatory gaps) + Lab 1/3 (Syft/Grype, Burp, Nikto, sqlmap) |
+| **Person 3** | 6. Secure Coding Guidelines, 8. Wrap-Up & Checklist | Lab 2 (mitigations table) + Lab 3 (test results) |
+| **Person 2** | 4. Testing Strategies, 7. Comparison with Alternatives | Lab 3 (test methodology) + Lab 1 (competitive landscape) |
 
 *(Swap freely — the point is every section below is fully scripted regardless of who presents it.)*
 
 ---
 
-## 1. SECTION 1 — Introduction & Developer Roles (Divyansh, ~12 min)
+## 1. SECTION 1 — Introduction & Developer Roles (Person 1, ~12 min)
 
 ### Slide 1: Title + Agenda
 - Title: "Audiobookshelf Developer Security Training"
@@ -66,7 +66,7 @@ Options: A) Frontend dev  B) Backend/API dev  C) DevOps  D) End user
 
 ---
 
-## 2. SECTION 2 — Applicable Regulations (Harlin, ~12 min)
+## 2. SECTION 2 — Applicable Regulations (Person 4, ~12 min)
 
 ### Slide 1: Regulatory Landscape for Audiobookshelf
 State exactly from Lab 1: GDPR (if EU users), **PIPEDA (applies — this is a Canada/Ontario deployment)**, COPPA (if minors share a deployment), HIPAA (not applicable — no PHI handled).
@@ -97,7 +97,7 @@ Explain: these aren't abstract legal requirements — each unchecked gap maps di
 
 ---
 
-## 3. SECTION 3 — Key Threat Events (Divyansh, ~15 min — this is your Heavy section)
+## 3. SECTION 3 — Key Threat Events (Person 1, ~15 min — this is your Heavy section)
 
 ### Slide 1: Methodology
 State: "We used STRIDE across 6 trust boundaries (28 threats total) and PASTA's 7-stage process to model Audiobookshelf's attack surface."
@@ -172,7 +172,7 @@ Recreate this table as a visual:
 
 ---
 
-## 4. SECTION 4 — Cybersecurity Testing Strategies (Sara, ~12 min)
+## 4. SECTION 4 — Cybersecurity Testing Strategies (Person 2, ~12 min)
 
 ### Slide 1: Manual vs Automated Testing — What We Actually Used
 | Type | Tool | Used For |
@@ -211,7 +211,7 @@ Explain the principle: testing strategy should match authorized scope and safety
 
 ---
 
-## 5. SECTION 5 — Recommended Security Tools (Harlin, ~15 min — your Heavy section)
+## 5. SECTION 5 — Recommended Security Tools (Person 4, ~15 min — your Heavy section)
 
 ### Slide 1: Tool Stack Overview
 | Stage | Tool | Purpose |
@@ -283,7 +283,7 @@ Narrate: "Scanned 6,544 items in 18 seconds, 11 findings. Key ones: missing X-Fr
 
 ---
 
-## 6. SECTION 6 — Secure Coding Guidelines (Pawan, ~15 min — your Heavy section)
+## 6. SECTION 6 — Secure Coding Guidelines (Person 3, ~15 min — your Heavy section)
 
 ### Slide 1: Guideline List (derived directly from Lab 2/3 findings)
 1. **Never trust the SSRF filter toggle** — hardcode outbound URL validation, don't make it admin-configurable
@@ -347,9 +347,9 @@ Explain: this is our **own confirmed finding** from Lab 3 (TC08) — not theoret
 ### Slide 5: Contributed Snippets (collect 1 from each teammate — leave placeholder, fill in before recording)
 | Contributor | Snippet Topic |
 |---|---|
-| Divyansh | (from Section 3 threat work — e.g. RSS URL parsing hardening) |
-| Harlin | (from Section 5 tool findings — e.g. dependency pin/upgrade example: axios 0.27.2 → 1.7.0) |
-| Sara | (from Section 4/7 testing work — e.g. input validation pattern confirmed safe by sqlmap/Burp) |
+| Person 1 | (from Section 3 threat work — e.g. RSS URL parsing hardening) |
+| Person 4 | (from Section 5 tool findings — e.g. dependency pin/upgrade example: axios 0.27.2 → 1.7.0) |
+| Person 2 | (from Section 4/7 testing work — e.g. input validation pattern confirmed safe by sqlmap/Burp) |
 
 ### Interactive Task (Slide 6)
 **Task:** "Look at this code: `if (config.ssrfFilterEnabled) { validateUrl(feedUrl); }`. Identify the vulnerability and name the STRIDE/CWE classification."
@@ -369,7 +369,7 @@ Structure: 1 page per guideline (5 total) with vulnerable/fixed code pairs above
 
 ---
 
-## 7. SECTION 7 — Comparison with Alternative Applications (Sara, ~12 min)
+## 7. SECTION 7 — Comparison with Alternative Applications (Person 2, ~12 min)
 
 ### Slide 1: Candidates
 From Lab 1's competitive landscape: **Booksonic** (declining, legacy Subsonic-based) and **Kavita** (actively maintained, ASP.NET Core, broader media focus).
@@ -403,7 +403,7 @@ Explain: Kavita's more modern .NET stack has some SSRF protections built into `H
 
 ---
 
-## 8. SECTION 8 — Wrap-Up & Developer Checklist (Pawan, ~10 min)
+## 8. SECTION 8 — Wrap-Up & Developer Checklist (Person 3, ~10 min)
 
 ### Slide 1: Key Takeaways Recap (1 line per section)
 1. Audiobookshelf's architecture centers on 6 trust boundaries, with RSS feed ingestion being the single highest-risk surface
