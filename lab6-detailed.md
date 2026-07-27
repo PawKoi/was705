@@ -1,10 +1,13 @@
 # Lab 6 — Exact Execution Guide (Using Real Lab 1–3 Data)
 
 **Group 4:** Person 1, Person 2, Person 3, Person 4
+
 **Target:** Audiobookshelf v2.35.0 | Course: WAS705NBB
+---
 
 > This document tells each person **exactly** what content to put on which slide, which command to run/show, which real finding from Labs 1–3 to cite, and what the interactive task + solution should say — word for word where possible. Copy-paste and adapt tone, don't reinvent.
 
+---
 ---
 
 ## 0. Section-to-Person Assignment (using real names)
@@ -18,6 +21,7 @@
 
 *(Swap freely — the point is every section below is fully scripted regardless of who presents it.)*
 
+---
 ---
 
 ## 1. SECTION 1 — Introduction & Developer Roles (Person 1, ~12 min)
@@ -65,6 +69,7 @@ Options: A) Frontend dev  B) Backend/API dev  C) DevOps  D) End user
 5. (2 min) Interactive task + solution
 
 ---
+---
 
 ## 2. SECTION 2 — Applicable Regulations (Person 4, ~12 min)
 
@@ -95,6 +100,7 @@ Explain: these aren't abstract legal requirements — each unchecked gap maps di
 3. (3 min) Translate 2 gaps into concrete dev tasks
 4. (3 min) Interactive task
 
+---
 ---
 
 ## 3. SECTION 3 — Key Threat Events (Person 1, ~15 min — this is your Heavy section)
@@ -171,6 +177,7 @@ Recreate this table as a visual:
 5. (2 min) Interactive task
 
 ---
+---
 
 ## 4. SECTION 4 — Cybersecurity Testing Strategies (Person 2, ~12 min)
 
@@ -209,6 +216,7 @@ Explain the principle: testing strategy should match authorized scope and safety
 3. (3 min) Coverage reality check table — what we tested vs didn't and why
 4. (3 min) Interactive task
 
+---
 ---
 
 ## 5. SECTION 5 — Recommended Security Tools (Person 4, ~15 min — your Heavy section)
@@ -281,6 +289,7 @@ Narrate: "Scanned 6,544 items in 18 seconds, 11 findings. Key ones: missing X-Fr
 6. (1 min) Tools not used, and why
 7. (2 min) Interactive task
 
+---
 ---
 
 ## 6. SECTION 6 — Secure Coding Guidelines (Person 3, ~15 min — your Heavy section)
@@ -368,6 +377,7 @@ Explain: this is our **own confirmed finding** from Lab 3 (TC08) — not theoret
 Structure: 1 page per guideline (5 total) with vulnerable/fixed code pairs above, plus the 3 contributed snippets appended at the end.
 
 ---
+---
 
 ## 7. SECTION 7 — Comparison with Alternative Applications (Person 2, ~12 min)
 
@@ -402,6 +412,7 @@ Explain: Kavita's more modern .NET stack has some SSRF protections built into `H
 4. (3 min) Interactive task
 
 ---
+---
 
 ## 8. SECTION 8 — Wrap-Up & Developer Checklist (Person 3, ~10 min)
 
@@ -433,6 +444,7 @@ Explain: Kavita's more modern .NET stack has some SSRF protections built into `H
 3. (2 min) Closing reflection prompt + sign-off
 
 ---
+---
 
 ## 9. Exact Commands Reference Sheet (copy-paste ready for whoever demos live)
 
@@ -455,6 +467,7 @@ ffmpeg -f lavfi -i "sine=frequency=1000:duration=1" -c:a libmp3lame test.mp3
 > Note: run these against your OWN local instance only, never a production/public deployment. This mirrors exactly what the group did in Labs 1–3 with maintainer permission.
 
 ---
+---
 
 ## 10. Real Test Case Reference (for anyone who wants exact wording for slides — pull directly, don't reinvent)
 
@@ -467,6 +480,7 @@ ffmpeg -f lavfi -i "sine=frequency=1000:duration=1" -c:a libmp3lame test.mp3
 | TC14 | Nikto scan | Finding — missing X-Frame-Options, /config/ exposed | 5 |
 | TC15–TC19 | Error handling | Pass — no info leakage | 4, 6 |
 
+---
 ---
 
 ## 11. What NOT to Claim (accuracy guardrails — read before recording)
