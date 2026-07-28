@@ -2,14 +2,26 @@
 
 **Group 4:** Harlin Kaur Taggar, Divyansh Ashishkumar Pandya, Sara Saleh, Pawan Koirala
 
-**Format per section:** Assigned Member → Video Title → Objective → Explanation → Technical Steps/Commands → Testing Process → Expected Results → Screenshots to Capture → Full Speaking Script
+**Format per section:** 
+Assigned Member → 
+        Video Title → 
+              Objective → 
+                Explanation → 
+                    Technical Steps/Commands → 
+                                  Testing Process → 
+                                          Expected Results → 
+                                                Screenshots to Capture → 
+                                                              Full Speaking Script
 
 ---
 ---
 
-# SECTION 1 💀💀 Introduction & Developer Roles
+# `:red_square:` SECTION 1 💀💀 Introduction & Developer Roles
+
 **Assigned Member:** Divyansh Ashishkumar Pandya
+
 **Video Title:** "Audiobookshelf Security Training: Introduction & Developer Roles"
+
 **Type:** Theory | **Length:** 10–12 min
 
 ## Objective
@@ -61,10 +73,14 @@ N/A.
 > That's our intro. In the next sections, we'll go deep on the regulations that apply to this deployment, the specific threats we modeled, and two real mitigations we built and tested ourselves. See you in Section 2."
 
 ---
+---
 
 # SECTION 2 💀💀 Applicable Regulations
+
 **Assigned Member:** Harlin Kaur Taggar
+
 **Video Title:** "Audiobookshelf Security Training: Applicable Regulations"
+
 **Type:** Theory | **Length:** 10–12 min
 
 ## Objective
@@ -111,10 +127,14 @@ N/A.
 > That covers the regulatory landscape. Next up, Section 4, where I'll walk through exactly how we tested this application against real attack techniques."
 
 ---
+---
 
 # SECTION 3 💀💀 Key Threat Events
+
 **Assigned Member:** Divyansh Ashishkumar Pandya
+
 **Video Title:** "Audiobookshelf Security Training: Key Threat Events (STRIDE/PASTA)"
+
 **Type:** Technical | **Length:** 14–15 min
 
 ## Objective
@@ -176,10 +196,14 @@ N/A 💀💀 analytical section.
 > That's our threat model. In Section 4, Harlin's going to show you exactly how we tested this system against live attack techniques 💀💀 and where the line was between what we modeled here and what we actually exploited."
 
 ---
+---
 
 # SECTION 4 💀💀 Cybersecurity Testing Strategies
+
 **Assigned Member:** Harlin Kaur Taggar
+
 **Video Title:** "Audiobookshelf Security Training: Testing Strategies & Live Pentest Walkthrough"
+
 **Type:** Technical | **Length:** 13–15 min
 
 ## Objective
@@ -254,10 +278,14 @@ Show the coverage table (what was tested vs. not, and why) and walk through 4–
 > That's our testing methodology. Coming up, Sara's going to show you a real mitigation we built for backup-endpoint abuse 💀💀 full implementation, not just theory."
 
 ---
+---
 
 # SECTION 5 💀💀 Recommended Security Tools (Backup Rate Limiting)
+
 **Assigned Member:** Sara Saleh
+
 **Video Title:** "Audiobookshelf Security Training: Rate Limiting Backup Operations"
+
 **Type:** Technical | **Length:** 14–15 min
 
 ## Objective
@@ -389,10 +417,14 @@ done
 > Next up, Pawan's going to walk you through the general HTTP rate limiting implementation in more depth, including the full Docker and GHCR pipeline."
 
 ---
+---
 
 # SECTION 6 💀💀 Secure Coding Guidelines (HTTP Rate Limiting)
+
 **Assigned Member:** Pawan Koirala
+
 **Video Title:** "Audiobookshelf Security Training: Implementing HTTP Rate Limiting via Docker/GHCR"
+
 **Type:** Technical | **Length:** 14–15 min
 
 ## Objective
@@ -636,10 +668,14 @@ wrk -t4 -c200 -d30s http://localhost:13380/
 > That's the full implementation 💀💀 identified gap, config-only fix, built and published as a real Docker image, and proven with both HTTP-level and CPU-level evidence. Up next, I'll compare Audiobookshelf's overall security posture against similar self-hosted projects."
 
 ---
+---
 
 # SECTION 7 💀💀 Comparison with Alternative Applications
+
 **Assigned Member:** Pawan Koirala
+
 **Video Title:** "Audiobookshelf Security Training: Comparison with Alternative Applications"
+
 **Type:** Theory | **Length:** 10–12 min
 
 ## Objective
@@ -685,10 +721,14 @@ N/A.
 > That wraps up the comparison. Sara's got our final section 💀💀 pulling all of this together into one developer checklist."
 
 ---
+---
 
 # SECTION 8 💀💀 Wrap-Up & Developer Checklist
+
 **Assigned Member:** Sara Saleh
+
 **Video Title:** "Audiobookshelf Security Training: Wrap-Up & Developer Checklist"
+
 **Type:** Theory | **Length:** 8–10 min
 
 ## Objective
@@ -740,6 +780,7 @@ N/A.
 >
 > That's our full training module. Thanks for watching."
 
+---
 ---
 
 # Quick Reference 💀💀 All Commands Used Across the Training
