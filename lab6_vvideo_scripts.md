@@ -16,7 +16,7 @@ Assigned Member →
 ---
 ---
 
-# `:red_square:` SECTION 1 💀💀 Introduction & Developer Roles
+# 🟥 SECTION 1 💀💀 Introduction & Developer Roles
 
 **Assigned Member:** Divyansh Ashishkumar Pandya
 
@@ -75,7 +75,7 @@ N/A.
 ---
 ---
 
-# SECTION 2 💀💀 Applicable Regulations
+# 🟧 SECTION 2 💀💀 Applicable Regulations
 
 **Assigned Member:** Harlin Kaur Taggar
 
@@ -129,7 +129,7 @@ N/A.
 ---
 ---
 
-# SECTION 3 💀💀 Key Threat Events
+# 🟨 SECTION 3 💀💀 Key Threat Events
 
 **Assigned Member:** Divyansh Ashishkumar Pandya
 
@@ -198,7 +198,7 @@ N/A 💀💀 analytical section.
 ---
 ---
 
-# SECTION 4 💀💀 Cybersecurity Testing Strategies
+# 🟩 SECTION 4 💀💀 Cybersecurity Testing Strategies
 
 **Assigned Member:** Harlin Kaur Taggar
 
@@ -280,7 +280,7 @@ Show the coverage table (what was tested vs. not, and why) and walk through 4–
 ---
 ---
 
-# SECTION 5 💀💀 Recommended Security Tools (Backup Rate Limiting)
+# 🟦 SECTION 5 💀💀 Recommended Security Tools (Backup Rate Limiting)
 
 **Assigned Member:** Sara Saleh
 
@@ -419,7 +419,7 @@ done
 ---
 ---
 
-# SECTION 6 💀💀 Secure Coding Guidelines (HTTP Rate Limiting)
+# 🟪 SECTION 6 💀💀 Secure Coding Guidelines (HTTP Rate Limiting)
 
 **Assigned Member:** Pawan Koirala
 
@@ -670,7 +670,7 @@ wrk -t4 -c200 -d30s http://localhost:13380/
 ---
 ---
 
-# SECTION 7 💀💀 Comparison with Alternative Applications
+# 🟫 SECTION 7 💀💀 Comparison with Alternative Applications
 
 **Assigned Member:** Pawan Koirala
 
@@ -723,7 +723,7 @@ N/A.
 ---
 ---
 
-# SECTION 8 💀💀 Wrap-Up & Developer Checklist
+# ⬜ SECTION 8 💀💀 Wrap-Up & Developer Checklist
 
 **Assigned Member:** Sara Saleh
 
