@@ -563,6 +563,4 @@ gh run view --log
 
 ## Thank You ❤️
 
-Thank you for helping improve **Audiobookshelf**.
-
-Your contributions—whether code, documentation, testing, or security improvements—are greatly appreciated.
+Your contributions—whether code, documentation or testing will be cool
